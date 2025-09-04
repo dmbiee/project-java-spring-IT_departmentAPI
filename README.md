@@ -14,7 +14,7 @@
     
     requests {
         long request_id PK
-        date request_date
+        localdate request_date
         long topic_id FK
         string description
     }
